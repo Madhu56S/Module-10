@@ -21,9 +21,22 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-Add Code Here
+```
+from queue import LifoQueue
+stack = LifoQueue(maxsize=5)
+n= int(input())
+for i in range(n):
+    stack.put(input())
+print(stack.full())
+for i in range(n):
+    print(stack.get())
+```
 
 ## 🧪 Sample Input and Output
+<img width="401" height="388" alt="image" src="https://github.com/user-attachments/assets/62182d89-4adb-4f88-89f4-ab9a1d87af6b" />
+
 
 ## Result
+The Program was executed successfully
+
 
